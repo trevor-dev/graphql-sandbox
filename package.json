@@ -1,0 +1,27 @@
+{
+  "name": "graphql-sandbox",
+  "version": "0.0.1",
+  "description": "Testbed for the GQL learning process",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "start": "babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trevor-dev/graphql-sandbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trevor-dev/graphql-sandbox/issues"
+  },
+  "homepage": "https://github.com/trevor-dev/graphql-sandbox#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.5"
+  }
+}
